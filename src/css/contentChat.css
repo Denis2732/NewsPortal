@@ -1,0 +1,63 @@
+.chat-card{
+    width: 100%;
+    height: 660px;
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-bottom: 1px solid #c4c4c4; 
+}
+.chat-card h2 {
+    text-align: left;
+    font-size: 20px;
+}
+.chat-card-posts {
+    height: 530px;
+    margin-bottom: 20px;
+    overflow-y: scroll; 
+}
+.chat-card-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.chat-card-post-avatar {
+    min-width: 60px;
+    min-height: 60px;
+    background-image: url("https://react.semantic-ui.com/images/avatar/large/matthew.png");
+	background-size: cover;
+	background-position: top center;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.chat-card-post-text {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;    
+}
+.chat-card-post-time {
+    margin-right: 5px;
+    opacity: 0.5;
+    text-align: left;
+}
+.chat-card-post-users {
+    font-weight: 500;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    box-orient: vertical;
+}
+.chat-card-post-avatar-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

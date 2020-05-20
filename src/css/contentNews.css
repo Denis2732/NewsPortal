@@ -1,0 +1,139 @@
+.content-news {
+    width: 69%;
+    margin-top: 24px;
+    padding-left: 16px;
+}
+.line h4 {
+    text-align: left;
+    font-size: 20px;
+}
+.column1 {
+    width: 100%;
+    height: 268px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 25px;
+    margin-bottom: 25px; 
+}
+.column2 {
+    width: 100%;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+}
+.line {
+    position: relative;
+}
+.line:after {
+    content: "";
+    position: absolute;
+    right: -16px;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #c4c4c4;
+}
+.column1-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column1-post2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column1-post-img {
+    width: 100%;
+    height: 242px;
+    background-image: url('https://regnum.ru/uploads/pictures/news/2020/03/15/regnum_picture_1584272621141083_normal.jpg');
+	background-size: cover;
+	background-position: top center;
+    overflow: hidden;
+}
+.column1-post-img2 {
+    width: 100%;
+    height: 152px;
+    background-image: url("https://cdn21.img.ria.ru/images/07e4/03/11/1568742722_0:0:3066:1725_600x0_80_0_0_d8a7514b1b7a7a629d15497d3bc00b22.jpg");
+	background-size: cover;
+	background-position: top center;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.column1-post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 16px;
+}
+.column1-post-text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.column1-post-text-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 115px;
+    font-weight: 500;
+}
+.column1-post-text-data p{
+    opacity: 0.5;
+}
+.column1-post-text-header h1{
+    font-size: 24px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    box-orient: vertical;
+}
+.column1-post-text-header2 h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    box-orient: vertical;
+}
+.column1-post-text-article {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
+    box-orient: vertical;
+}
+.column1-post-text-source {
+    margin-top: -12px;
+    color: #4385f5;
+    font-size: 16px;
+}
+.column1-post-text-views {
+    vertical-align: bottom;
+    margin-bottom: -4px;
+}
+.column1-post-text-views2 {
+    vertical-align: bottom;
+    margin-top: 10px;
+}
